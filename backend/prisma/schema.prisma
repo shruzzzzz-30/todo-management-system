@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum UserStatus {
+  ACTIVE
+  DISABLED
+}
+
+enum TodoStatus {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+}
+
+model User {
+  id            String     @id @default(cuid())
+  name          String
+  email         String     @unique
+  password      String
+  profilePicture String?
+  role          UserRole   @default(USER)
+  status        UserStatus @default(ACTIVE)
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  // Relations
+  createdTodos  Todo[]     @relation("TodoCreator")
+  assignedTodos Todo[]     @relation("TodoAssignee")
+
+  @@map("users")
+}
+
+model Todo {
+  id          String     @id @default(cuid())
+  title       String
+  description String?
+  dueDate     DateTime?
+  status      TodoStatus @default(PENDING)
+  order       Int        @default(0)
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  // Foreign Keys
+  createdById String
+  assignedToId String
+
+  // Relations
+  createdBy   User   @relation("TodoCreator", fields: [createdById], references: [id], onDelete: Cascade)
+  assignedTo  User   @relation("TodoAssignee", fields: [assignedToId], references: [id], onDelete: Cascade)
+  files       File[]
+
+  @@map("todos")
+}
+
+model File {
+  id        String   @id @default(cuid())
+  filename  String
+  originalName String
+  path      String
+  size      Int
+  mimeType  String
+  createdAt DateTime @default(now())
+
+  // Foreign Key
+  todoId    String
+
+  // Relations
+  todo      Todo     @relation(fields: [todoId], references: [id], onDelete: Cascade)
+
+  @@map("files")
+}
