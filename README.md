@@ -287,34 +287,8 @@ For support, please open an issue in the GitHub repository or contact the develo
 
 
 
-## ✨ Recent Fixes and Improvements
 
-This version includes the following fixes and improvements:
 
-### Fixed Issues
-- ✅ **Todo CRUD Operations**: Fixed all create, read, update, and delete operations
-- ✅ **Profile Management**: Implemented complete profile management functionality
-- ✅ **Settings Management**: Added comprehensive user settings with theme, notifications, and privacy controls
-- ✅ **File Management**: Implemented file upload, download, and management features
-- ✅ **Admin User Management**: Added admin functionality to manage users (view, disable, delete)
-- ✅ **Navigation**: Fixed all 404 errors for missing pages
-- ✅ **Form Validation**: Fixed frontend and backend validation issues
-- ✅ **API Endpoints**: Ensured all API endpoints work correctly with proper error handling
-
-### New Features Added
-- 🆕 **Complete Settings Page**: Theme selection, notification preferences, privacy settings
-- 🆕 **Profile Management**: Update profile information and change passwords
-- 🆕 **File Management**: Upload and manage files associated with todos
-- 🆕 **Admin Dashboard**: Comprehensive user management for administrators
-- 🆕 **Enhanced UI**: Improved user interface with proper form handling and validation
-- 🆕 **Better Error Handling**: Comprehensive error handling throughout the application
-
-### Technical Improvements
-- 🔧 **TypeScript**: Strict TypeScript implementation throughout the project
-- 🔧 **Validation**: Improved form validation on both frontend and backend
-- 🔧 **Database**: Enhanced database schema with proper relationships
-- 🔧 **Security**: Improved authentication and authorization mechanisms
-- 🔧 **Performance**: Optimized API calls and database queries
 
 ### Database Schema Updates
 Added new Settings table:
@@ -352,5 +326,9 @@ Added new Settings table:
    - Clear browser localStorage and cookies
    - Check token expiration settings
 
-For more help, please check the logs in both backend and frontend terminals.
+## 📊 ER Diagram
+
+Here’s the Entity Relationship Diagram for the Todo Management System:
+
+![ER Diagram](docs/ERD.png)
 
