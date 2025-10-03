@@ -281,14 +281,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Database ORM by [Prisma](https://prisma.io/)
 - Styling with [Tailwind CSS](https://tailwindcss.com/)
 
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
-
-
-
-
-
 
 ### Database Schema Updates
 Added new Settings table:
@@ -332,3 +324,8 @@ Here’s the Entity Relationship Diagram for the Todo Management System:
 
 ![ER Diagram](docs/ERD.png)
 
+## 📊 System architecture 
+
+Here’s the System Architecture for the Todo Management System:
+
+![System Architecture](docs/System_architecture.png)
