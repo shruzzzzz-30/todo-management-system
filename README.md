@@ -322,7 +322,7 @@ Added new Settings table:
 
 Here’s the Entity Relationship Diagram for the Todo Management System:
 
-![ER Diagram](docs/ERD.png)
+![ER Diagram](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/ERD.png?raw=true)
 
 ## 📊 System architecture 
 
