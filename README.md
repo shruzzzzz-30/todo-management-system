@@ -328,4 +328,39 @@ Here’s the Entity Relationship Diagram for the Todo Management System:
 
 Here’s the System Architecture for the Todo Management System:
 
-![System Architecture](docs/System_architecture.png)
+![System Architecture](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/System_architecture.png?raw=true       
+)
+
+
+## 📸 Screenshots
+
+### sign up Page
+![sign up  Page](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0010.jpg?raw=true
+)
+
+### Login Page
+![Login Page](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0003.jpg?raw=true
+)
+
+
+###  Admin Dashboard
+![Dashboard](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0004.jpg?raw=true)
+![Dashboard](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0011.jpg?raw=true
+)
+![Dashboard](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0006.jpg?raw=true
+)
+###  User Dashboard
+![Dashboard](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0007.jpg?raw=true
+)
+
+
+### Todo Creation
+![Todo Creation](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0012.jpg?raw=true)
+![Todo Creation](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0013.jpg?raw=true)
+![Todo Creation](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0014.jpg?raw=true)
+![Todo Creation](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0015.jpg?raw=true)
+### Profile Page
+![Profile Page](https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0008.jpg?raw=true)
+### Drop Down
+![Drop down](
+https://github.com/shruzzzzz-30/todo-management-system/blob/main/docs/IMG-20251003-WA0009.jpg?raw=true)
